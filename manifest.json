@@ -5,7 +5,7 @@
   "content_security_policy": "default-src 'none'; script-src 'self'; frame-ancestors 'none'; form-action 'none'; upgrade-insecure-requests; block-all-mixed-content",
   "permissions": [
     "storage",
-    "tabs"
+    "webNavigation"
   ],
   "background": {
     "scripts":["background.js"]
