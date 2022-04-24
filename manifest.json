@@ -1,0 +1,23 @@
+{
+  "name": "NavigationPolicy",
+  "version": "1.0.0",
+  "description": "NavigationPolicy",
+  "content_security_policy": "default-src 'none'; script-src 'self'; frame-ancestors 'none'; form-action 'none'; upgrade-insecure-requests; block-all-mixed-content",
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "background": {
+    "scripts":["background.js"]
+  },
+  "browser_specific_settings":{
+      "gecko":{
+         "id":"navigationpolicy@ndevtk"
+      }
+   },
+  "developer": {
+      "name": "NDevTK",
+      "url": "https://github.com/NDevTK/NavigationPolicy"
+  },
+  "manifest_version": 2
+}
